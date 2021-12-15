@@ -2,6 +2,30 @@ h1 {
     color: blue;
 }
 p {
-    color: brown;
-    /*background-color: crimson;*/
+    color: white;
+    background-color: crimson;
+    padding: 15px;
+    border: 10px solid powderblue;
+    margin: 50px;
+}
+pre {
+    /*
+    margin-top: 100px;
+    margin-bottom: 200px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin: margin-top margin-right margin-bottom margin-left
+    */
+    /*margin: 100px 200px 30px 30px;*/
+    /*
+    margin: margin-top margin-right == margin-left margin-bottom
+    */
+    /*margin: 100px 50px 200px;*/
+    /*margin: margin-top == margin-bottom margin-right == margin-left*/
+    /*margin: 100px 200px;*/
+    /*margin: auto to center all the margins*/
+    /*margin: auto;*/
+    /*margin: auto 10px*/
+    margin: auto 10px;
+    text-align: center;
 }
